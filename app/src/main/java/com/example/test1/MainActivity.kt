@@ -29,6 +29,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 //////lalala
+///////lalal after onboarding
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
