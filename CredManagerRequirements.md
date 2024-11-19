@@ -8,9 +8,8 @@
         Success - email has good format
     Password:
         Error - password is empty
-        Success - password is not empty
-
+        Success - password is not empty   (but we need at leat 8 digits??)
     Login:
-        Success - Successful login
         Error - Wrong credentials
         Error - Connection timeout
+        Success - Successful login
