@@ -8,6 +8,7 @@ import androidx.core.view.WindowInsetsCompat
 import android.widget.TextView
 import android.util.Log
 import android.content.Intent
+import com.google.android.material.textfield.TextInputEditText
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,5 +27,14 @@ class MainActivity : AppCompatActivity() {
             val goToRegisterIntent=Intent(this, RegisterActivity::class.java)
             startActivity(goToRegisterIntent)
         }
+
+        //set/remove error from email field layout
+//        editEmail.error="Oh no"
+//        editEmail.error.isErrorEnabled=false
+//
+//        //get value from email field
+//        findViewById<TextInputEditText>(R.id.editEmail).text.toString()
     }
+
+
 }
